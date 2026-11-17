@@ -1,0 +1,30 @@
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# React build files
+dist/
+build/
+
+# Java / Maven generated files
+**/target/
+*.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
